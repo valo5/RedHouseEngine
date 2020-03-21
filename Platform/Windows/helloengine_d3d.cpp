@@ -47,7 +47,6 @@ inline void SafeRelease(T **ppInterfaceToRelease)
     }
 }
 
-//创建画布
 void CreateRenderTarget() {
     HRESULT hr;
     ID3D11Texture2D *pBackBuffer;
@@ -65,7 +64,6 @@ void CreateRenderTarget() {
     g_pDevcon->OMSetRenderTargets( 1, &g_pRTView, NULL );
 }
 
-//设置视口
 void SetViewPort() {
     D3D11_VIEWPORT viewport;
     ZeroMemory(&viewport, sizeof(D3D11_VIEWPORT));
@@ -79,7 +77,6 @@ void SetViewPort() {
 }
 
 // this is the function that loads and prepares the shaders
-//初始化渲染管道
 void InitPipeline() {
     // load and compile the two shaders
     ID3DBlob *VS, *PS;
@@ -110,7 +107,6 @@ void InitPipeline() {
 }
 
 // this is the function that creates the shape to render
-//传入实际要绘制的模型的顶点信息
 void InitGraphics() {
     // create a triangle using the VERTEX struct
     VERTEX OurVertices[] =
