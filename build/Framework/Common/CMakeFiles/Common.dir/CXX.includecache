@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Framework/Interface/IApplication.hpp
+Interface.hpp
+../Framework/Interface/Interface.hpp
+IRuntimeModule.hpp
+../Framework/Interface/IRuntimeModule.hpp
+
+../Framework/Interface/IRuntimeModule.hpp
+Interface.hpp
+../Framework/Interface/Interface.hpp
+
+../Framework/Interface/Interface.hpp
+
+D:/Files/RedHouseEngine/Framework/Common/BaseApplication.cpp
+BaseApplication.hpp
+D:/Files/RedHouseEngine/Framework/Common/BaseApplication.hpp
+
+D:/Files/RedHouseEngine/Framework/Common/BaseApplication.hpp
+IApplication.hpp
+D:/Files/RedHouseEngine/Framework/Common/IApplication.hpp
+
+D:/Files/RedHouseEngine/Framework/Common/GraphicsManager.cpp
+GraphicsManager.hpp
+D:/Files/RedHouseEngine/Framework/Common/GraphicsManager.hpp
+
+D:/Files/RedHouseEngine/Framework/Common/GraphicsManager.hpp
+IRuntimeModule.hpp
+D:/Files/RedHouseEngine/Framework/Common/IRuntimeModule.hpp
+
+D:/Files/RedHouseEngine/Framework/Common/main.cpp
+stdio.h
+-
+IApplication.hpp
+D:/Files/RedHouseEngine/Framework/Common/IApplication.hpp
+
